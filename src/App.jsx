@@ -123,7 +123,7 @@ const App = () => {
                   <td>{user.age}</td>
                   <td>
                     <Image
-                      src={`https://file-upload-app-server-mern.onrender.com/${user.profile}`}
+                      src={`https://file-upload-app-server-mern.onrender.com/uploads/${user.profile}`}
                       alt="user profile"
                       fluid
                       rounded
